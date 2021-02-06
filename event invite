@@ -2,13 +2,12 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Spin-off of "Project: Event invite"</title>
+        <title>Project: Event invite</title>
         <style>
              h1 {
                 font-size:2em;
                 font-family: monospace;
                 text-align: center;
-                padding:20px;
                 color:rgb(158, 30, 158);
             }
             h2{
@@ -18,7 +17,7 @@
                 color:rgb(158, 30, 158);
             }
             body{
-                background:rgb(255, 255, 255);
+                background:rgb(128, 237, 232);
             }
             hr {
                 width:80%;
@@ -33,6 +32,7 @@
             .l{
                 font-size:1.3em;
                 font-family: monospace;
+                margin-left:190px;
                 color:rgb(158, 30, 158);
             }
             #image {
