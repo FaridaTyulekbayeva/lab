@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Blog</title>
+        <style>
+        h1{
+            color:rgb(255, 255, 255);
+            background-color:rgb(186, 139, 20);
+            border-bottom: 2px solid white;
+            font-family:serif;
+            font-size:60px;
+            text-align:center;
+        }
+        h2{
+            color:rgb(186, 139, 20);
+            text-align:center;
+            
+        }
+        #links{
+            color:rgb(255, 255, 255);
+            border:2px dashed white;
+            background-color:rgb(186, 139, 20);
+           
+        }
+            body{
+                background-color:rgb(8, 69, 66);
+                font-size:15px;
+                font-style:italic;
+                font-weight:bold;
+                font-family:sans-serif;
+            }
+        .a{
+            color:rgb(255, 255, 255);
+            margin:1px 1px 1px 280px;
+            border:2px dashed white;
+            background-color:rgb(186, 139, 20);
+        }
+        .image{
+            cursor:pointer;
+            box-shadow:5px 5px 20px white;
+            margin-left:25%;
+        }
+        hr {
+                width:100%;
+                color:rgb(186, 139, 20);
+                border:4px solid;
+            }
+        .post{
+            color:rgb(186, 139, 20);
+            margin:10px 100px 10px 100px;
+        }
+        </style>
+    </head>
+    <body>
+        <h1><strong>Farida's blog</strong></h1>
+        <p id="links">Read about: <br>
+        <a href="#3">me</a><br>
+        <a href="#1">my profession</a><br>
+        <a href="#2">my university</a>
+    </p>
+        <h3 class="a">Contents</h3>
+        <ul class="a">
+            <li>Who i am?</li>
+            <li>How to become a programmer?</li>
+            <li>Which university did I choose?</li>
+        </ul>
+        
+        <hr>
+        <h2 id="3"> Who I am?</h2>
+        <img class="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Macbook_white_redjar_20060603.jpg/274px-Macbook_white_redjar_20060603.jpg">
+        <p class="post">Hi! My name is Farida. I am 18. Currently, I born in Uralsk.</p>
+        
+        <hr>
+        
+        <h2 id="1">
+How to become a programmer?</h2>
+
+ 
+        <img class="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Coding_Shots_Annual_Plan_high_res-5.jpg/225px-Coding_Shots_Annual_Plan_high_res-5.jpg">
+        <p class="post">Learning programming is hard, I’m not going to lie. However, when you compare it to other skills and career paths, becoming a programmer will be one of the easiest choices you make!
+
+Programmers work in a very exciting field where every day brings new challenges and new knowledge.
+Programmers have the opportunity to work for themselves, to work whatever hours they want, and to work from home if they want to.
+Programming is very easy to learn when compared to other skills that can take three or more years at university. Sure, you could waste a few years of your life and learn programming at uni, but why would you when you can learn it in a few months online?
+As you can see, there are plenty of reasons why you would want to become a programmer. Luckily for you, I’m here to show you exactly how to do just that in seven simple steps.</p>
+        <hr>
+        <h2 id="2">
+Which university did I choose?</h2>
+        <img class="image" src="https://upload.wikimedia.org/wikipedia/ru/thumb/3/31/Logotip_KBTU.jpg/274px-Logotip_KBTU.jpg">
+        <p class="post">KBTU’s research is focused in the main sectors of the Kazakhstani economy – oil and gas, information technologies, banking and finance, management and telecommunications.
+
+KBTU is the first and only Kazakhstani university with internationally accredited IT programs by the U.S. agency, the Accreditation Board for Engineering and Technology (ABET). It is also the first and only Kazakhstani university to receive an international accreditation for its Oil and Gas programs in the UK by the Institution of Marine Engineering, Science and Technology (IMarEST), UK.</p>
+        <hr>
+    </body>
+</html>
