@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Travel webpage</title>
+        <style>
+            h1{
+                color:rgb(255, 255, 255);
+                text-align:center;
+            }
+            h2{
+                color:rgb(255, 255, 255);
+            }
+            body{
+                background-color:rgb(0, 0, 0);
+            }
+            p{
+                color:rgb(20, 20, 20);
+                background-color:rgb(255, 255, 255);
+            }
+            #flag{
+                 margin:0px 0px 1px 150px;
+            }
+            .lists{
+                background-color:rgb(255, 255, 255);
+            }
+        </style>
+    </head>
+    <body>
+    
+        <h1>Travel to USA</h1>
+        <img id="flag" src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/125px-Flag_of_the_United_States.svg.png" atm="planet" width="250">
+        
+        
+        <h2>Places to go</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/New_york_times_square-terabass.jpg/183px-New_york_times_square-terabass.jpg" atm="planet" >
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Los_Angeles_with_Mount_Baldy.jpg/280px-Los_Angeles_with_Mount_Baldy.jpg" atm="planet" width="190" height="122">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Fremont_Street_1952.JPG/220px-Fremont_Street_1952.JPG" atm="planet" height="122">
+        <p><strong>The <em>greatest</em> places that you should to travel</strong></p>
+        <ul class="lists">
+            <li>New York</li>
+            <li>LA</li>
+            <li>Las Vegas</li>
+        </ul>
+        
+    
+    
+        <h2>Things to see</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Hollywood_Sign_%28Zuschnitt%29.jpg/220px-Hollywood_Sign_%28Zuschnitt%29.jpg" atm="hollywood" >
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Lady_Liberty_under_a_blue_sky_%28cropped%29_%28cropped%29.jpg/81px-Lady_Liberty_under_a_blue_sky_%28cropped%29_%28cropped%29.jpg" atm="liberty" height="138">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Lower_Central_Park_Shot_5_%28cropped%29.JPG/102px-Lower_Central_Park_Shot_5_%28cropped%29.JPG" atm="park" height="138">
+        <p><strong>The <em>greatest</em> things that you should to see</strong></p>
+        <ol class="lists">
+            <li>Hollywood sign</li>
+            <li>Statue of Liberty</li>
+            <li>Central Park</li>
+        </ol>
+    </body>
+</html>
